@@ -17,8 +17,8 @@ jobs:
           node-version: 16
       - run: npm install
       - run: npm run index
-      - run: git config --local user.email "github-actions[bot]@github.com"
-      - run: git config --local user.name "github-actions[bot]"
+      - run: git config --local user.email "786483815@qq.com"
+      - run: git config --local user.name "test"
       - run: git add .
       - run: git commit -m "AUTO UPDATE [bot]"
       - name: Push master changes
